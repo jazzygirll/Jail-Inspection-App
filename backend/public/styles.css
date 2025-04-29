@@ -1,0 +1,178 @@
+/* Base styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  h1 {
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styling */
+  form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 700px;
+    margin: 0 auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+    text-align: left;
+  }
+  
+  input, select {
+    padding: 10px;
+    width: 95%;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Question blocks */
+  .question-block {
+    margin-top: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  /* Table styling for View Reports */
+  table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #e9ecef;
+  }
+  
+  button.view-btn, button.download-btn {
+    padding: 5px 10px;
+    margin: 0 3px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  button.view-btn {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  button.view-btn:hover {
+    background-color: #218838;
+  }
+  
+  button.download-btn {
+    background-color: #17a2b8;
+    color: white;
+  }
+  
+  button.download-btn:hover {
+    background-color: #138496;
+  }
+/* View Reports Table Styling */
+
+#reportsTable {
+  width: 90%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+#reportsTable th, #reportsTable td {
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+#reportsTable th {
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+}
+
+#reportsTable tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+#reportsTable tr:hover {
+  background-color: #f1f1f1;
+  transition: background-color 0.3s ease;
+}
+
+/* View and Download Buttons */
+.view-btn, .download-btn {
+  padding: 6px 14px;
+  margin: 2px;
+  font-size: 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.view-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.view-btn:hover {
+  background-color: #218838;
+}
+
+.download-btn {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.download-btn:hover {
+  background-color: #138496;
+}
+
+
+  

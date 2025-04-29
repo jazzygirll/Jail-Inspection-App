@@ -1,0 +1,4 @@
+node_modules/
+.env
+inspection.db
+.DS_Store
